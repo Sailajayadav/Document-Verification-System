@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Document Verification</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 20px; }
+        .form-group { margin-bottom: 15px; }
+        label { display: block; margin-bottom: 5px; }
+    </style>
+</head>
+<body>
+    <h2>Upload Documents for Verification</h2>
+    <form action="/process_single" method="POST" enctype="multipart/form-data">
+        <div class="form-group">
+            <label for="person_id">Person ID:</label>
+            <input type="text" id="person_id" name="person_id" required>
+        </div>
+        <div class="form-group">
+            <label for="documents">Upload 3 Documents:</label>
+            <input type="file" id="documents" name="documents" multiple required accept="image/*">
+        </div>
+        <button type="submit">Process</button>
+    </form>
+    <a href="/process_all">Process All Persons</a>
+</body>
+</html>

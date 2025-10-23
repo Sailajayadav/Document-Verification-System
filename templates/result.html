@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Verification Result</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 20px; }
+        pre { background: #f4f4f4; padding: 10px; }
+    </style>
+</head>
+<body>
+    <h2>Verification Result for Person {{ person_id }}</h2>
+    <h3>Extracted Data</h3>
+    <pre>{{ extracted_data | tojson(indent=4) }}</pre>
+    <h3>Verification Results</h3>
+    <pre>{{ verification_results | tojson(indent=4) }}</pre>
+    <h3>Overall Status: {{ overall_status }}</h3>
+    <a href="/">Back</a>
+</body>
+</html>

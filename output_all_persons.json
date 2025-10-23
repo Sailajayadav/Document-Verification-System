@@ -1,0 +1,741 @@
+[
+    {
+        "person_id": "P001",
+        "extracted_data": {
+            "document_1": {
+                "Full Name": "Isaac Bakshi",
+                "Father's Name": "Anvi Bakshi",
+                "Date of Birth": "07-09-1998",
+                "Complete Address": {
+                    "house_number": "321",
+                    "street": "Andhra Pradesh",
+                    "city": "Chahal",
+                    "state": "Circle",
+                    "pincode": "338908"
+                },
+                "Email Address": "isaac.bakshi@yahoo.com",
+                "PAN Number": "YFJ500781N",
+                "Employee ID": "EMP5931"
+            },
+            "document_2": {
+                "Full Name": "ISAAC BAKSHI",
+                "Father's Name": "Anvi Bakshi",
+                "Date of Birth": "07-09-1998",
+                "Complete Address": {
+                    "house_number": "321",
+                    "street": "Andhra Pradesh",
+                    "city": "Chahal",
+                    "state": "Circle",
+                    "pincode": "338908"
+                },
+                "Phone Number": "+913863794026",
+                "Aadhaar Number": "423511615594"
+            },
+            "document_3": {
+                "Full Name": "Isaac Bakshi",
+                "Date of Birth": "07-09-1998",
+                "Complete Address": {
+                    "house_number": "321",
+                    "street": "Andhra Pradesh",
+                    "city": "Chahal",
+                    "state": "Circle",
+                    "pincode": "338908"
+                },
+                "Phone Number": "+913863794026",
+                "Email Address": "carenationalindiabank.com",
+                "Account Number": "0341316475"
+            }
+        },
+        "verification_results": {
+            "rule_1_name_match": {
+                "status": "PASS"
+            },
+            "rule_2_dob_match": {
+                "status": "PASS"
+            },
+            "rule_3_address_match": {
+                "status": "PASS"
+            },
+            "rule_4_phone_match": {
+                "status": "PASS"
+            },
+            "rule_5_father_name_match": {
+                "status": "PASS"
+            },
+            "rule_6_pan_format": {
+                "status": "FAIL",
+                "reason": "Invalid PAN format"
+            },
+            "rule_7_aadhaar_format": {
+                "status": "PASS",
+                "reason": ""
+            }
+        },
+        "overall_status": "FAILED"
+    },
+    {
+        "person_id": "P002",
+        "extracted_data": {
+            "document_1": {
+                "Full Name": "Nicholas Prabhakar",
+                "Father's Name": "Isha Prabhakar",
+                "Date of Birth": "10-05-2000",
+                "Complete Address": {
+                    "house_number": "419",
+                    "street": "Manipur",
+                    "city": "Street",
+                    "state": "Ujjain",
+                    "pincode": "483503"
+                },
+                "Email Address": "nicholas.prabhakar@yahoo.com",
+                "PAN Number": "FFWDH5328J",
+                "Employee ID": "EMP2691"
+            },
+            "document_2": {
+                "Full Name": "NICHOLAS PRABHAKAR",
+                "Father's Name": "Isha Prabakar",
+                "Date of Birth": "10-05-2000",
+                "Complete Address": {
+                    "house_number": "419",
+                    "street": "Manipur",
+                    "city": "Street",
+                    "state": "Ujjain",
+                    "pincode": "483503"
+                },
+                "Phone Number": "+910564139537",
+                "Aadhaar Number": "724238849696"
+            },
+            "document_3": {
+                "Full Name": "Nicholas Prabhakar",
+                "Date of Birth": "10-05-2000",
+                "Complete Address": {
+                    "house_number": "419",
+                    "street": "Manipur",
+                    "city": "Street",
+                    "state": "Ujjain",
+                    "pincode": "483503"
+                },
+                "Phone Number": "+910564139537",
+                "Email Address": "carenationalindiabank.com",
+                "Account Number": "6697848018"
+            }
+        },
+        "verification_results": {
+            "rule_1_name_match": {
+                "status": "PASS"
+            },
+            "rule_2_dob_match": {
+                "status": "PASS"
+            },
+            "rule_3_address_match": {
+                "status": "PASS"
+            },
+            "rule_4_phone_match": {
+                "status": "PASS"
+            },
+            "rule_5_father_name_match": {
+                "status": "FAIL"
+            },
+            "rule_6_pan_format": {
+                "status": "PASS",
+                "reason": ""
+            },
+            "rule_7_aadhaar_format": {
+                "status": "PASS",
+                "reason": ""
+            }
+        },
+        "overall_status": "FAILED"
+    },
+    {
+        "person_id": "P003",
+        "extracted_data": {
+            "document_1": {
+                "Full Name": "Amara Oak",
+                "Father's Name": "Isaac Oak",
+                "Date of Birth": "21-11-1979",
+                "Complete Address": {
+                    "house_number": "62",
+                    "street": "",
+                    "city": "Aggarwal",
+                    "state": "Tripura",
+                    "pincode": "814893"
+                },
+                "Email Address": "amara.oak@gmail.com",
+                "PAN Number": "QHMBN2782L",
+                "Employee ID": "EMP3465"
+            },
+            "document_2": {
+                "Full Name": "Amara Oak",
+                "Father's Name": "Isaac Oak",
+                "Date of Birth": "21-11-1979",
+                "Complete Address": {
+                    "house_number": "62",
+                    "street": "",
+                    "city": "Aggarwal",
+                    "state": "Tripura",
+                    "pincode": "814893"
+                },
+                "Phone Number": "+912528809570",
+                "Aadhaar Number": "543039117182"
+            },
+            "document_3": {
+                "Full Name": "Amara Oak",
+                "Date of Birth": "21-11-1979",
+                "Complete Address": {
+                    "house_number": "62",
+                    "street": "",
+                    "city": "Aggarwal",
+                    "state": "Tripura",
+                    "pincode": "814893"
+                },
+                "Phone Number": "+912528809570",
+                "Email Address": "carenationalindiabank.com",
+                "Account Number": "7871331509"
+            }
+        },
+        "verification_results": {
+            "rule_1_name_match": {
+                "status": "PASS"
+            },
+            "rule_2_dob_match": {
+                "status": "PASS"
+            },
+            "rule_3_address_match": {
+                "status": "PASS"
+            },
+            "rule_4_phone_match": {
+                "status": "PASS"
+            },
+            "rule_5_father_name_match": {
+                "status": "PASS"
+            },
+            "rule_6_pan_format": {
+                "status": "PASS",
+                "reason": ""
+            },
+            "rule_7_aadhaar_format": {
+                "status": "PASS",
+                "reason": ""
+            }
+        },
+        "overall_status": "VERIFIED"
+    },
+    {
+        "person_id": "P004",
+        "extracted_data": {
+            "document_1": {
+                "Full Name": "Victor Kannan",
+                "Father's Name": "Abhimanyu Kannan",
+                "Date of Birth": "19-06-1982",
+                "Complete Address": {
+                    "house_number": "031",
+                    "street": "Haryana",
+                    "city": "Narayanan",
+                    "state": "Kottayam",
+                    "pincode": "738299"
+                },
+                "Email Address": "victor.kannanyahoo.com",
+                "Employee ID": "EMP1080"
+            },
+            "document_2": {
+                "Full Name": "VICTOR KANNAN",
+                "Father's Name": "Abhimanyu Kannan",
+                "Date of Birth": "19-06-1982",
+                "Complete Address": {
+                    "house_number": "031",
+                    "street": "Haryana",
+                    "city": "Narayanan",
+                    "state": "Kottayam",
+                    "pincode": "738299"
+                },
+                "Phone Number": "+917376311656",
+                "Aadhaar Number": "701065133387"
+            },
+            "document_3": {
+                "Full Name": "Victor Kannan",
+                "Date of Birth": "19-06-1982",
+                "Complete Address": {
+                    "house_number": "031",
+                    "street": "Haryana",
+                    "city": "Narayanan",
+                    "state": "Kottayam",
+                    "pincode": "738299"
+                },
+                "Phone Number": "+917376311656",
+                "Email Address": "carenationalindiabank.com",
+                "Account Number": "1326773602"
+            }
+        },
+        "verification_results": {
+            "rule_1_name_match": {
+                "status": "PASS"
+            },
+            "rule_2_dob_match": {
+                "status": "PASS"
+            },
+            "rule_3_address_match": {
+                "status": "PASS"
+            },
+            "rule_4_phone_match": {
+                "status": "PASS"
+            },
+            "rule_5_father_name_match": {
+                "status": "PASS"
+            },
+            "rule_6_pan_format": {
+                "status": "PASS",
+                "reason": "No PAN data to validate"
+            },
+            "rule_7_aadhaar_format": {
+                "status": "PASS",
+                "reason": ""
+            }
+        },
+        "overall_status": "VERIFIED"
+    },
+    {
+        "person_id": "P005",
+        "extracted_data": {
+            "document_1": {
+                "Full Name": "Ladli Agate",
+                "Father's Name": "Madhavi Agate",
+                "Date of Birth": "13-12-1971",
+                "Complete Address": {
+                    "house_number": "74",
+                    "street": "",
+                    "city": "Jhansi",
+                    "state": "Jharkhand",
+                    "pincode": "098050"
+                },
+                "Email Address": "ladli.agate@gmail.com",
+                "PAN Number": "UQNQT6998U",
+                "Employee ID": "EMP3462"
+            },
+            "document_2": {
+                "Full Name": "Ladli Agate",
+                "Father's Name": "Madhavi Aggate",
+                "Date of Birth": "13-12-1971",
+                "Complete Address": {
+                    "house_number": "74",
+                    "street": "",
+                    "city": "Jhansi",
+                    "state": "Jharkhand",
+                    "pincode": "098050"
+                },
+                "Phone Number": "+91978820812",
+                "Aadhaar Number": "913619399091"
+            },
+            "document_3": {
+                "Full Name": "Ladli Singh",
+                "Date of Birth": "13-12-1971",
+                "Complete Address": {
+                    "house_number": "74",
+                    "street": "",
+                    "city": "Jhansi",
+                    "state": "Jharkhand",
+                    "pincode": "098050"
+                },
+                "Phone Number": "+910978820812",
+                "Email Address": "carenationalindiabank.com",
+                "Account Number": "4751079911"
+            }
+        },
+        "verification_results": {
+            "rule_1_name_match": {
+                "status": "FAIL"
+            },
+            "rule_2_dob_match": {
+                "status": "PASS"
+            },
+            "rule_3_address_match": {
+                "status": "PASS"
+            },
+            "rule_4_phone_match": {
+                "status": "FAIL"
+            },
+            "rule_5_father_name_match": {
+                "status": "FAIL"
+            },
+            "rule_6_pan_format": {
+                "status": "PASS",
+                "reason": ""
+            },
+            "rule_7_aadhaar_format": {
+                "status": "PASS",
+                "reason": ""
+            }
+        },
+        "overall_status": "FAILED"
+    },
+    {
+        "person_id": "P006",
+        "extracted_data": {
+            "document_1": {
+                "Full Name": "Tanay Toor",
+                "Father's Name": "Alka Toor",
+                "Date of Birth": "27-12-1973",
+                "Complete Address": {
+                    "house_number": "513",
+                    "street": "",
+                    "city": "Bahraich",
+                    "state": "Uttarakhand",
+                    "pincode": "980841"
+                },
+                "Email Address": "tanay.toor@hotmail.com",
+                "PAN Number": "VCJTB5242J",
+                "Employee ID": "EMP0112"
+            },
+            "document_2": {
+                "Full Name": "Tanay Toor",
+                "Father's Name": "Alka Toor",
+                "Date of Birth": "31-07-1973",
+                "Complete Address": {
+                    "house_number": "513",
+                    "street": "",
+                    "city": "Bahraich",
+                    "state": "Uttarakhand",
+                    "pincode": "980841"
+                },
+                "Phone Number": "+912411824493",
+                "Aadhaar Number": "534874016400"
+            },
+            "document_3": {
+                "Full Name": "Tanay Toor",
+                "Date of Birth": "31-07-1973",
+                "Complete Address": {
+                    "house_number": "513",
+                    "street": "",
+                    "city": "Bahraich",
+                    "state": "Uttarakhand",
+                    "pincode": "980841"
+                },
+                "Phone Number": "+912411824493",
+                "Email Address": "carenationalindiabank.com",
+                "Account Number": "8059826204"
+            }
+        },
+        "verification_results": {
+            "rule_1_name_match": {
+                "status": "PASS"
+            },
+            "rule_2_dob_match": {
+                "status": "FAIL"
+            },
+            "rule_3_address_match": {
+                "status": "PASS"
+            },
+            "rule_4_phone_match": {
+                "status": "PASS"
+            },
+            "rule_5_father_name_match": {
+                "status": "PASS"
+            },
+            "rule_6_pan_format": {
+                "status": "PASS",
+                "reason": ""
+            },
+            "rule_7_aadhaar_format": {
+                "status": "PASS",
+                "reason": ""
+            }
+        },
+        "overall_status": "FAILED"
+    },
+    {
+        "person_id": "P007",
+        "extracted_data": {
+            "document_1": {
+                "Full Name": "Janya Baral",
+                "Father's Name": "Ishita Baral",
+                "Date of Birth": "18-04-1977",
+                "Complete Address": {
+                    "house_number": "315",
+                    "street": "Bengal",
+                    "city": "Circle",
+                    "state": "Patiala",
+                    "pincode": "260256"
+                },
+                "Email Address": "janya.baral@yahoo.com",
+                "PAN Number": "HOLLQ6850C",
+                "Employee ID": "EMP1965"
+            },
+            "document_2": {
+                "Full Name": "Janya Baral",
+                "Father's Name": "Ishita Baral",
+                "Date of Birth": "18-04-1977",
+                "Complete Address": {
+                    "house_number": "315",
+                    "street": "Bengal",
+                    "city": "Circle",
+                    "state": "Patiala",
+                    "pincode": "260256"
+                },
+                "Phone Number": "+913421607337",
+                "Aadhaar Number": "433036541458"
+            },
+            "document_3": {
+                "Full Name": "Janya Baral",
+                "Date of Birth": "18-04-1977",
+                "Complete Address": {
+                    "house_number": "315",
+                    "street": "Bengal",
+                    "city": "Circle",
+                    "state": "Patiala",
+                    "pincode": "260256"
+                },
+                "Phone Number": "+913421606088",
+                "Email Address": "carenationalindiabank.com",
+                "Account Number": "5698169340"
+            }
+        },
+        "verification_results": {
+            "rule_1_name_match": {
+                "status": "PASS"
+            },
+            "rule_2_dob_match": {
+                "status": "PASS"
+            },
+            "rule_3_address_match": {
+                "status": "PASS"
+            },
+            "rule_4_phone_match": {
+                "status": "FAIL"
+            },
+            "rule_5_father_name_match": {
+                "status": "PASS"
+            },
+            "rule_6_pan_format": {
+                "status": "PASS",
+                "reason": ""
+            },
+            "rule_7_aadhaar_format": {
+                "status": "PASS",
+                "reason": ""
+            }
+        },
+        "overall_status": "FAILED"
+    },
+    {
+        "person_id": "P008",
+        "extracted_data": {
+            "document_1": {
+                "Full Name": "Ronith Patla",
+                "Father's Name": "Mugdha Kohli",
+                "Date of Birth": "29-04-1997",
+                "Complete Address": {
+                    "house_number": "595",
+                    "street": "",
+                    "city": "Alappuzha",
+                    "state": "Karnataka",
+                    "pincode": "482366"
+                },
+                "Email Address": "ronith.patlayahoo.com",
+                "PAN Number": "WPRTO8951Z",
+                "Employee ID": "EMP3200"
+            },
+            "document_2": {
+                "Full Name": "Ronith Patil",
+                "Father's Name": "Raagini Patil",
+                "Date of Birth": "29-04-1997",
+                "Complete Address": {
+                    "house_number": "595",
+                    "street": "",
+                    "city": "Alappuzha",
+                    "state": "Karnataka",
+                    "pincode": "482366"
+                },
+                "Phone Number": "+912994680443",
+                "Aadhaar Number": "995777387214"
+            },
+            "document_3": {
+                "Full Name": "Ronith Patla",
+                "Date of Birth": "29-04-1997",
+                "Complete Address": {
+                    "house_number": "595",
+                    "street": "",
+                    "city": "Alappuzha",
+                    "state": "Karnataka",
+                    "pincode": "482366"
+                },
+                "Phone Number": "+912994680443",
+                "Email Address": "carenationalindiabank.com",
+                "Account Number": "3791769367"
+            }
+        },
+        "verification_results": {
+            "rule_1_name_match": {
+                "status": "FAIL"
+            },
+            "rule_2_dob_match": {
+                "status": "PASS"
+            },
+            "rule_3_address_match": {
+                "status": "PASS"
+            },
+            "rule_4_phone_match": {
+                "status": "PASS"
+            },
+            "rule_5_father_name_match": {
+                "status": "FAIL"
+            },
+            "rule_6_pan_format": {
+                "status": "PASS",
+                "reason": ""
+            },
+            "rule_7_aadhaar_format": {
+                "status": "PASS",
+                "reason": ""
+            }
+        },
+        "overall_status": "FAILED"
+    },
+    {
+        "person_id": "P009",
+
+        "extracted_data": {
+            "document_1": {
+            "Account Number": "5876036690",
+            "Complete Address": {
+                "city": "Shetty",
+                "house_number": "32",
+                "pincode": "727889",
+                "state": "Circle",
+                "street": "Proddatur Haryana"
+            },
+            "Date of Birth": "08-01-1987",
+            "Email Address": "carenationalindiabank.com",
+            "Full Name": "Manbir Ahluwalia",
+            "Phone Number": "+915798687277"
+            },
+            "document_2": {
+            "Complete Address": {
+                "city": "Shetty",
+                "house_number": "32",
+                "pincode": "727889",
+                "state": "Circle",
+                "street": "Proddatur Haryana"
+            },
+            "Date of Birth": "08-01-1987",
+            "Email Address": "manbir.ahluwalia@yahoo.com",
+            "Employee ID": "EMP3166",
+            "Father's Name": "Hredhaan Ahluwalia",
+            "Full Name": "Manbir Ahluwalia",
+            "PAN Number": "WYA967054"
+            },
+            "document_3": {
+            "Aadhaar Number": "348734714345",
+            "Complete Address": {
+                "city": "Shetty",
+                "house_number": "32",
+                "pincode": "727889",
+                "state": "Circle",
+                "street": "Proddatur Haryana"
+            },
+            "Date of Birth": "08-01-1987",
+            "Father's Name": "Hredhaan Ahluwalia",
+            "Full Name": "Manbir Ahluwalia"
+            }
+        },
+        "verification_results": {
+            "rule_1_name_match": {
+            "status": "PASS"
+            },
+            "rule_2_dob_match": {
+            "status": "PASS"
+            },
+            "rule_3_address_match": {
+            "status": "PASS"
+            },
+            "rule_4_phone_match": {
+            "status": "PASS"
+            },
+            "rule_5_father_name_match": {
+            "status": "PASS"
+            },
+            "rule_6_pan_format": {
+            "reason": "Invalid PAN format",
+            "status": "FAIL"
+            },
+            "rule_7_aadhaar_format": {
+            "reason": "",
+            "status": "PASS"
+            }
+        },
+        "overall_status": "FAILED"
+    },
+    {
+        "person_id": "P010",
+        "extracted_data": {
+            "document_1": {
+            "Account Number": "9232719374",
+            "Complete Address": {
+                "city": "Ramachandran",
+                "house_number": "67",
+                "pincode": "729806",
+                "state": "Machilipatnam",
+                "street": "Telangana"
+            },
+            "Date of Birth": "16-09-2000",
+            "Full Name": "Thomas Sura",
+            "Phone Number": "+919901627204"
+            },
+            "document_2": {
+            "Complete Address": {
+                "city": "Ramachandran",
+                "house_number": "67",
+                "pincode": "729806",
+                "state": "Machilipatnam",
+                "street": "Telangana"
+            },
+            "Date of Birth": "16-09-2000",
+            "Email Address": "thomassurayahoo.com",
+            "Employee ID": "EMP0330",
+            "Father's Name": "Theodore Sura",
+            "Full Name": "Thomas Sura",
+            "PAN Number": "PEXPC8053W"
+            },
+            "document_3": {
+            "Aadhaar Number": "5299 1241",
+            "Complete Address": {
+                "city": "Ramachandran",
+                "house_number": "67",
+                "pincode": "",
+                "state": "Machilipatnam",
+                "street": "Telangana -729806"
+            },
+            "Date of Birth": "16-09-2000",
+            "Father's Name": "Theodore Sura",
+            "Full Name": "Thomas Sura"
+            }
+        },
+    
+        "verification_results": {
+            "rule_1_name_match": {
+            "status": "PASS"
+            },
+            "rule_2_dob_match": {
+            "status": "PASS"
+            },
+            "rule_3_address_match": {
+            "status": "FAIL"
+            },
+            "rule_4_phone_match": {
+            "status": "PASS"
+            },
+            "rule_5_father_name_match": {
+            "status": "PASS"
+            },
+            "rule_6_pan_format": {
+            "reason": "",
+            "status": "PASS"
+            },
+            "rule_7_aadhaar_format": {
+            "reason": "Invalid Aadhaar format",
+            "status": "FAIL"
+            },
+            "overall_status": "FAILED"
+        
+        }
+    }
+]
