@@ -129,10 +129,10 @@ Document Verification System/
 │ └── storage.py # Helper utilities (optional)
 │
 └── dataset/ # Provided input data for testing (10 persons' documents)
-├── P001/
-├── P002/
-├── ...
-└── P010/
+    ├── P001/
+    ├── P002/
+    ├── ...
+    └── P010/
 ```
 
 ---
@@ -218,4 +218,5 @@ python app.py
 * Unstructured Address Matching: Component-based comparison (pincode, city, house number).
 
 * Data Normalization: Dedicated functions unify different date and phone formats.
+
 
