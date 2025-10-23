@@ -108,25 +108,25 @@ The system follows a **5-step pipeline** for each person:
 ```
 Document Verification System/
 │
-├── app.py # Main Flask application orchestrating the full verification flow
-├── config.py # Configuration file (API keys, environment variables)
-├── output_all_persons.json # Final output file with all extracted and verified results
-├── doc_verification.log # Structured logging for debugging and traceability
-├── requirements.txt # Python dependencies
+├── app.py       # Main Flask application orchestrating the full verification flow
+├── config.py     # Configuration file (API keys, environment variables)
+├── output_all_persons.json     # Final output file with all extracted and verified results
+├── doc_verification.log     # Structured logging for debugging and traceability
+├── requirements.txt     # Python dependencies
 |
-├── output_all_persons.json # ✅ Final structured output file generated in the root directory
+├── output_all_persons.json     # ✅ Final structured output file generated in the root directory
 │
 ├── templates/ # HTML templates for Flask
-│ ├── index.html # Web interface for single-person verification
-│ └── results.html # Displays structured JSON results
+│ ├── index.html     # Web interface for single-person verification
+│ └── results.html     # Displays structured JSON results
 │
 ├── modules/ # Core logic modules
-│ ├── ocr.py # Handles OCR extraction using Google Gemini
-│ ├── preprocess.py # Cleans and pre-processes extracted text
-│ ├── llm_extraction.py # Structured data extraction using Gemini LLM
-│ ├── normalization.py # Normalizes date, phone, and address formats
-│ ├── verification.py # Contains 7 rule-based cross-verification checks
-│ └── storage.py # Helper utilities (optional)
+│ ├── ocr.py     # Handles OCR extraction using Google Gemini
+│ ├── preprocess.py     # Cleans and pre-processes extracted text
+│ ├── llm_extraction.py     # Structured data extraction using Gemini LLM
+│ ├── normalization.py     # Normalizes date, phone, and address formats
+│ ├── verification.py     # Contains 7 rule-based cross-verification checks
+│ └── storage.py     # Stores results
 │
 └── dataset/ # Provided input data for testing (10 persons' documents)
     ├── P001/
@@ -218,5 +218,6 @@ python app.py
 * Unstructured Address Matching: Component-based comparison (pincode, city, house number).
 
 * Data Normalization: Dedicated functions unify different date and phone formats.
+
 
 
